@@ -1,0 +1,19 @@
+html {
+  font-size: 16px;
+}
+
+.button {
+  /* Parent style -------------------------------- */
+  padding: 0.75rem;
+  background-color: #880808;
+  color: #FFFFFF;
+  border: none;
+  /* Children style ------------------------------ */
+  /* Other component style ----------------------- */
+  /* Modifier style ------------------------------ */
+}
+
+.home .home-container {
+  padding: 4rem; /* For real life coding, local style use rem mixin for spacing/sizing instead design tokens becase designer can't create design tokens document for page design */
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
