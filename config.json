@@ -1,9 +1,9 @@
 {
-  "source": ["style/design-systems/design-tokens/*.json"],
+  "source": ["styles/design-systems/design-tokens/*.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "style/design-systems/",
+      "buildPath": "styles/design-systems/",
       "files": [{
         "destination": "_design-tokens.scss",
         "format": "scss/variables"
