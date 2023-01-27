@@ -1,33 +1,43 @@
 // //////////////////////////////////////////////////////////////////////////////////////////////////
 // ==================================================================================================
 //
-// Style Guides
-// - Design systems
-// - Configurations
-// - Components
-// - Pages
+// Variables
+// - Colors
+// - Typography
+// - Height
+// - Border radius
 //
 // ==================================================================================================
 // //////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Design systems
+// Colors
 // ============================================================
-@import 'design-systems/design-tokens';
-@import 'design-systems/mixin';
-@import 'design-systems/variables';
-@import 'design-systems/typography';
+$color-white: #FFFFFF;
+$color-red-1: #880808;
+$color-gray-1: #181818;
 
-
-// Configurations
+// Typography
 // ============================================================
-@import 'configurations/scaffolding';
-@import 'configurations/global';
+// Font family
+$font-family-primary: Noto Sans;
+// Font weight
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+// Line height
+$line-height-1: 140%;
+// Font size
+$font-size-sm: rem(14);
+$font-size-md: rem(16);
+$font-size-lg: rem(18);
 
-// Components
+// Height
 // ============================================================
-@import 'components/button';
-@import 'components/button-design-tokens';
+$height-sm: rem(30);
+$height-md: rem(36);
+$height-lg: rem(42);
 
-// Pages
+// Border radius
 // ============================================================
-@import 'pages/home';
+$border-radius-sm: rem(4);
+$border-radius-md: rem(6);
+$border-radius-lg: rem(8);

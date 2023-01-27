@@ -6,38 +6,38 @@
 // ==================================================================================================
 // //////////////////////////////////////////////////////////////////////////////////////////////////
 
-.button {
+.button-design-tokens {
   /* Parent style -------------------------------- */
   cursor: pointer;
-  min-width: 120px;
-  padding: 0 rem(16);
-  height: $height-md;
-  background-color: $color-red-1;
+  min-width: $base-sizing-width-button;
+  padding: 0 $base-spacing-xm;
+  height: $base-sizing-height-md;
+  background-color: $base-color-primary-red-dark;
   border: none;
-  border-radius: $border-radius-md;
-  font-family: $font-family-primary;
-  font-size: $font-size-md;
-  font-weight: $font-weight-regular;
-  line-height: $line-height-1;
-  color: $color-white;
+  border-radius: $base-border-radius-xxs;
+  font-family: $base-font-family-primary;
+  font-size: $base-font-size-md;
+  font-weight: $base-font-weight-regular;
+  line-height: $base-line-height-primary;
+  color: $base-color-primary-white;
 
   /* Children style ------------------------------ */
   /* Other component style ----------------------- */
   /* Modifier style ------------------------------ */
   &.is-sm {
-    height: $height-sm;
-    border-radius: $border-radius-sm;
-    font-size: $font-size-sm;
+    height: $base-sizing-height-sm;
+    border-radius: $base-border-radius-xxxs;
+    font-size: $base-font-size-sm;
   }
 
   &.is-lg {
-    height: $height-lg;
-    border-radius: $border-radius-lg;
-    font-size: $font-size-lg;
+    height: $base-sizing-height-lg;
+    border-radius: $base-border-radius-xs;
+    font-size: $base-font-size-xm;
   }
 
-  &.is-gray-1 {
-    background-color: $color-gray-1;
+  &.is-gray-dark {
+    background-color: $base-color-primary-gray-dark;
   }
 
   // ModifierStyle_Name

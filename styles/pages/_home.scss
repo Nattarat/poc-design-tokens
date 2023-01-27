@@ -12,16 +12,37 @@
 // ============================================================
 .home {
   .home-container {
-    padding: rem(64); /* For real life coding, local style use rem mixin for spacing/sizing instead design tokens becase designer can't create design tokens document for page design */
-    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* For real life coding, local style use rem mixin for spacing/sizing instead design tokens becase designer can't create design tokens document for page design */
+    padding: rem(64);
   }
 
   .home-section {
-    &.is-heading {}
+    &.is-column {
+      padding: 0 rem(64);
+      text-align: center;
+    }
+
+    &.is-heading {
+      margin: 0 0 rem(16);
+    }
+
+    &.is-button {
+      margin: 0 0 rem(16);
+    }
   }
 
   .home-text {
-    &.is-heading {}
+    &.is-heading {
+      font-family: $base-typography-primary-bold-lg-font-family;
+      font-size: $base-typography-primary-bold-lg-font-size;
+      line-height: $base-typography-primary-bold-lg-line-height;
+      color: $base-color-primary-gray-dark;
+    }
   }
 }
 
