@@ -38,9 +38,10 @@
 
   .home-text {
     &.is-heading {
-      font-family: $base-typography-primary-bold-lg-font-family;
-      font-size: $base-typography-primary-bold-lg-font-size;
-      line-height: $base-typography-primary-bold-lg-line-height;
+      font-family: $base-font-family-primary;
+      font-weight: $base-font-weight-regular;
+      font-size: $base-font-size-md;
+      line-height: $base-line-height-primary;
       color: $base-color-primary-gray-dark;
     }
   }
